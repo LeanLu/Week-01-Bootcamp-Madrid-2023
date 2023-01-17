@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+body {
+  padding: 1rem;
+}
+
 header {
   background-color: brown;
+}
+
+section {
+  border: 1px solid;
 }
