@@ -1,0 +1,70 @@
+/* Selector Universal */
+* {
+  box-sizing: border-box;
+}
+
+/* Selector de Etiqueta */
+h3 {
+  color: blue;
+}
+
+/* Selector de Class */
+.violet {
+  color: blueviolet;
+}
+
+/* Selector de Atributo */
+[type="text"] {
+  border-color: red;
+}
+
+[id="p2"] {
+  color: aqua;
+}
+
+/* Selector de id */
+#p1 {
+  color: green;
+}
+
+/* Selección de varios Selectores */
+h3,
+#p2,
+.bar {
+  color: blueviolet;
+}
+
+/* Selectores combinados */
+header p {
+  font-size: 0.8rem;
+}
+
+header > p {
+  font-style: italic;
+}
+
+header > div > p {
+  color: red;
+}
+
+/* Selector de Hermanos */
+#p1 ~ p {
+  background-color: blue;
+}
+
+/* Selector de Abyacentes */
+#p1 + p {
+  background-color: crimson;
+}
+
+article::first-line {
+  color: hotpink;
+}
+
+article:hover {
+  background-color: aqua;
+}
+
+article::before {
+  content: "🎉";
+}
