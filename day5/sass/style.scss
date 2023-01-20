@@ -1,0 +1,71 @@
+$primary-color: chocolate;
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 1rem;
+}
+
+h1 {
+  color: $primary-color;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav li {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Para hacerlo con anidamientos: */
+
+nav {
+  background-color: bisque;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+
+    li {
+      padding: 0;
+      a {
+        text-decoration: none;
+        color: inherit;
+      }
+    }
+  }
+}
+
+/* Conviene escribirlo como: */
+
+nav {
+  background-color: bisque;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+  }
+  li {
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

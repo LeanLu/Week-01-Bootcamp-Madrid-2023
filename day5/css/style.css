@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+}
+
+h1 {
+  color: chocolate;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+nav li {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Para hacerlo con anidamientos: */
+nav {
+  background-color: bisque;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+nav ul li {
+  padding: 0;
+}
+nav ul li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Conviene escribirlo como: */
+nav {
+  background-color: bisque;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+nav li {
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*# sourceMappingURL=style.css.map */
