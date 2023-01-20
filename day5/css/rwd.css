@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header,
+footer {
+  background-color: maroon;
+  color: bisque;
+}
+
+main {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+section {
+  border: 1px solid black;
+}
+
+@media screen and (min-width: 500px) {
+  main {
+    flex-direction: row;
+  }
+  .section-1 {
+    flex: 2 0 200px;
+  }
+  .section-2 {
+    flex: 10 0 30%;
+  }
+}
+
+/*# sourceMappingURL=rwd.css.map */
